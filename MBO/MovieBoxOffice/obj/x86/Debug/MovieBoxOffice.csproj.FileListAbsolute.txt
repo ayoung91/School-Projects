@@ -1,0 +1,11 @@
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\bin\Debug\MovieBoxOffice.exe
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\bin\Debug\MovieBoxOffice.pdb
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\MovieBoxOffice.Form1.resources
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\MovieBoxOffice.Properties.Resources.resources
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\MovieBoxOffice.exe
+C:\Users\kentonm\Desktop\MBO\MovieBoxOffice\obj\x86\Debug\MovieBoxOffice.pdb
+E:\CS3240\MBO\MovieBoxOffice\obj\x86\Debug\MovieBoxOffice.exe
+E:\CS3240\MBO\MovieBoxOffice\obj\x86\Debug\MovieBoxOffice.pdb
