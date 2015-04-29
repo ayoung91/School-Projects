@@ -1,0 +1,34 @@
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.exe
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.pdb
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.xml
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.Form1.resources
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.Resources.resources
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.exe
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.xml
+C:\Users\Adam\Desktop\CS 101\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.pdb
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.exe
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.xml
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.pdb
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.exe
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.pdb
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.xml
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.Form1.resources
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.Resources.resources
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\CS1010\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.exe
+F:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.xml
+F:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.pdb
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.exe
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.xml
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.pdb
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.exe
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.pdb
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\bin\Debug\YoungAdam_Program6.xml
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.Form1.resources
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.Resources.resources
+E:\CS1010(VB.NET)\YoungAdam_Program6\YoungAdam_Program6\obj\x86\Debug\YoungAdam_Program6.vbproj.GenerateResource.Cache
