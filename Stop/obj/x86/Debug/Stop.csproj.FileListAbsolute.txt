@@ -1,0 +1,9 @@
+C:\Users\ayoung\Desktop\Stop\bin\Debug\Stop.exe
+C:\Users\ayoung\Desktop\Stop\bin\Debug\Stop.pdb
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\Stop.frmStop.resources
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\Stop.Properties.Resources.resources
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\Stop.exe
+C:\Users\ayoung\Desktop\Stop\obj\x86\Debug\Stop.pdb
