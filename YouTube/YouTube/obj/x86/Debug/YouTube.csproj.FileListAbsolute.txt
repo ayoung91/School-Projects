@@ -1,0 +1,11 @@
+C:\Users\ayoung\Desktop\YouTube\bin\Debug\YouTube.exe.config
+C:\Users\ayoung\Desktop\YouTube\bin\Debug\YouTube.exe
+C:\Users\ayoung\Desktop\YouTube\bin\Debug\YouTube.pdb
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\YouTube.Form1.resources
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\YouTube.Properties.Resources.resources
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\YouTube.exe
+C:\Users\ayoung\Desktop\YouTube\obj\x86\Debug\YouTube.pdb
+C:\Users\ayoung\Desktop\YouTube\bin\Debug\YouTubeDownloader.dll
