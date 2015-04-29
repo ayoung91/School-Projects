@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CustomersModelStoreContainer" CdmEntityContainer="CustomersEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CustomersModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="address_2" ColumnName="address_2" />
+          <ScalarProperty Name="address_1" ColumnName="address_1" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="CustomersModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="date_ordered" ColumnName="date_ordered" />
+          <ScalarProperty Name="customerID" ColumnName="customerID" />
+          <ScalarProperty Name="order_number" ColumnName="order_number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_item">
+      <EntityTypeMapping TypeName="CustomersModel.Order_item">
+        <MappingFragment StoreEntitySet="Order_item">
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="product_desc" ColumnName="product_desc" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="order_number" ColumnName="order_number" />
+          <ScalarProperty Name="item_id" ColumnName="item_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="CustomersModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="product_description" ColumnName="product_description" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

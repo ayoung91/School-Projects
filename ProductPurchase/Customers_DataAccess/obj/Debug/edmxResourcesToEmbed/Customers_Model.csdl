@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomersModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="CustomersEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="CustomersModel.Customer" />
+    <EntitySet Name="Orders" EntityType="CustomersModel.Order" />
+    <EntitySet Name="Order_item" EntityType="CustomersModel.Order_item" />
+    <EntitySet Name="Products" EntityType="CustomersModel.Product" />
+    <AssociationSet Name="FK_Order_Customer" Association="CustomersModel.FK_Order_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Order" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orderitem_Order" Association="CustomersModel.FK_Orderitem_Order">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Order_item" EntitySet="Order_item" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_item_Product" Association="CustomersModel.FK_Order_item_Product">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Order_item" EntitySet="Order_item" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Type="Int32" Name="CustomerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="last_name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="first_name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="address_1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="address_2" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="City" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="State" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Zip" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="phone" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orders" Relationship="CustomersModel.FK_Order_Customer" FromRole="Customer" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="order_number" />
+    </Key>
+    <Property Type="Int32" Name="order_number" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="customerID" Nullable="false" />
+    <Property Type="DateTime" Name="date_ordered" />
+    <NavigationProperty Name="Customer" Relationship="CustomersModel.FK_Order_Customer" FromRole="Order" ToRole="Customer" />
+    <NavigationProperty Name="Order_item" Relationship="CustomersModel.FK_Orderitem_Order" FromRole="Order" ToRole="Order_item" />
+  </EntityType>
+  <EntityType Name="Order_item">
+    <Key>
+      <PropertyRef Name="item_id" />
+    </Key>
+    <Property Type="Int32" Name="item_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="order_number" Nullable="false" />
+    <Property Type="String" Name="product_id" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="product_desc" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="quantity" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="CustomersModel.FK_Orderitem_Order" FromRole="Order_item" ToRole="Order" />
+    <NavigationProperty Name="Product" Relationship="CustomersModel.FK_Order_item_Product" FromRole="Order_item" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Type="String" Name="product_id" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="product_description" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Order_item" Relationship="CustomersModel.FK_Order_item_Product" FromRole="Product" ToRole="Order_item" />
+  </EntityType>
+  <Association Name="FK_Order_Customer">
+    <End Type="CustomersModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="CustomersModel.Order" Role="Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="customerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orderitem_Order">
+    <End Type="CustomersModel.Order" Role="Order" Multiplicity="1" />
+    <End Type="CustomersModel.Order_item" Role="Order_item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="order_number" />
+      </Principal>
+      <Dependent Role="Order_item">
+        <PropertyRef Name="order_number" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_item_Product">
+    <End Type="CustomersModel.Product" Role="Product" Multiplicity="0..1" />
+    <End Type="CustomersModel.Order_item" Role="Order_item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="Order_item">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
